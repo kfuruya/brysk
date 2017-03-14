@@ -1,0 +1,35 @@
+{
+  "name": "brysk",
+  "version": "0.1.0",
+  "description": "A web server backend for brysk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kfuruya/brysk.git"
+  },
+  "author": "kfuruya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kfuruya/brysk/issues"
+  },
+  "homepage": "https://github.com/kfuruya/brysk#readme",
+  "private": true,
+  "dependencies": {
+    "express": "^4.15.2",
+    "kue": "^0.11.5",
+    "level-browserify": "^1.1.0",
+    "levelgraph": "^2.0.1",
+    "redis": "^2.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.17.1",
+    "eslint-config-google": "^0.7.1",
+    "eslint-config-standard": "^7.0.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^2.1.1",
+    "grunt": "^1.0.1"
+  }
+}
